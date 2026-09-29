@@ -4,10 +4,10 @@ import { useState, useEffect } from 'preact/hooks';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { AuthModal } from './components/AuthModal';
-import { Marketplace } from './pages/Marketplace';
-import { ProductDetail } from './pages/ProductDetail';
+import { Marketplace } from './pages/marketplace';
+import { ProductDetail } from './pages/productDetail';
 import { Orders } from './pages/Orders';
-import { Admin } from './pages/Admin';
+import { Admin } from './pages/admin';
 import { initAuth } from './lib/auth';
 import './index.css';
 
